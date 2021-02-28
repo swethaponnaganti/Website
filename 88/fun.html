@@ -1,0 +1,27 @@
+<html>
+<body>
+<button onclick="second()" >Try it </button>
+<p id="demo"></p>
+<script  >
+function second(){
+var name;
+var favsubject=prompt("enter your fav subject");
+switch(favsubject){
+case "python":
+name="python is favourite";
+break;
+case "c":
+name="c is complex";
+break;
+case "c++":
+name="c++ is ";
+break;
+default:
+name="you have no selected any option";
+break;
+}
+document.getElementById("demo").innerHtml=name;
+}
+</script>
+</body>
+</html>

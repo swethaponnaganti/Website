@@ -1,0 +1,9 @@
+
+body{
+background-color:linen;
+}
+
+table,th,td{
+border:1px solid blue;
+border-collapse:collapse;
+}
